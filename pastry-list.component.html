@@ -1,0 +1,20 @@
+<p>pastry-list works!</p>
+<div *ngFor="let list of item">
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Pastry</mat-card-title>
+    <mat-card-subtitle>Pastry:{{list.name}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="list.imgpath" alt="Photo of a Pastry">
+  <!-- <mat-card-content>
+    <p>
+        Shortcrust pastry is a French-style dough with a crumbly, biscuit-like texture. This style of dough is "short" because the amount of flour is usually double the amount of fat, allowing it to break apart more easily than American-style pie dough
+    </p>
+  </mat-card-content> -->
+  <mat-card-actions>
+    <button>Details</button>
+  
+  </mat-card-actions>
+</mat-card>
+</div>

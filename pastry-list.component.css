@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://www.thespruceeats.com/thmb/KjUsfliyX-4uXdVFaQ2x3tdQ8_w=/1500x844/smart/filters:no_upscale()/perfect-shortcrust-by-hand-or-machine-435774-15_preview-5b2906ee1d64040037d91ea8.jpeg');
+    background-size: cover;
+  }
